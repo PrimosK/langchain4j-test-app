@@ -1,0 +1,73 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< si.kokol.app:langchain4-test-app >------------------
+[INFO] Building langchain4-test-app 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- dependency:3.6.1:tree (default-cli) @ langchain4-test-app ---
+[INFO] si.kokol.app:langchain4-test-app:jar:1.0-SNAPSHOT
+[INFO] +- dev.langchain4j:langchain4j:jar:0.34.0:compile
+[INFO] |  +- dev.langchain4j:langchain4j-core:jar:0.34.0:compile
+[INFO] |  +- org.apache.opennlp:opennlp-tools:jar:1.9.4:compile
+[INFO] |  +- org.jsoup:jsoup:jar:1.16.1:compile
+[INFO] |  \- org.slf4j:slf4j-api:jar:2.0.7:compile
+[INFO] +- dev.langchain4j:langchain4j-embeddings:jar:0.34.0:compile
+[INFO] |  +- com.microsoft.onnxruntime:onnxruntime:jar:1.17.1:compile
+[INFO] |  +- ai.djl:api:jar:0.28.0:compile
+[INFO] |  |  \- net.java.dev.jna:jna:jar:5.14.0:compile
+[INFO] |  +- org.apache.commons:commons-compress:jar:1.26.1:compile
+[INFO] |  |  +- commons-codec:commons-codec:jar:1.16.1:compile
+[INFO] |  |  +- commons-io:commons-io:jar:2.15.1:compile
+[INFO] |  |  \- org.apache.commons:commons-lang3:jar:3.14.0:compile
+[INFO] |  \- ai.djl.huggingface:tokenizers:jar:0.28.0:compile
+[INFO] +- dev.langchain4j:langchain4j-qdrant:jar:0.34.0:compile
+[INFO] |  +- io.netty:netty-codec-http2:jar:4.1.111.Final:compile
+[INFO] |  |  +- io.netty:netty-common:jar:4.1.111.Final:compile
+[INFO] |  |  +- io.netty:netty-buffer:jar:4.1.111.Final:compile
+[INFO] |  |  +- io.netty:netty-transport:jar:4.1.111.Final:compile
+[INFO] |  |  |  \- io.netty:netty-resolver:jar:4.1.111.Final:compile
+[INFO] |  |  +- io.netty:netty-codec:jar:4.1.111.Final:compile
+[INFO] |  |  +- io.netty:netty-handler:jar:4.1.111.Final:compile
+[INFO] |  |  |  \- io.netty:netty-transport-native-unix-common:jar:4.1.111.Final:compile
+[INFO] |  |  \- io.netty:netty-codec-http:jar:4.1.111.Final:compile
+[INFO] |  +- io.grpc:grpc-protobuf:jar:1.59.0:compile
+[INFO] |  |  +- io.grpc:grpc-api:jar:1.59.0:compile
+[INFO] |  |  +- com.google.protobuf:protobuf-java:jar:3.24.0:compile
+[INFO] |  |  +- com.google.api.grpc:proto-google-common-protos:jar:2.22.0:compile
+[INFO] |  |  \- io.grpc:grpc-protobuf-lite:jar:1.59.0:compile
+[INFO] |  +- com.google.guava:guava:jar:32.0.0-jre:compile
+[INFO] |  |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  |  +- org.checkerframework:checker-qual:jar:3.33.0:compile
+[INFO] |  |  +- com.google.errorprone:error_prone_annotations:jar:2.18.0:compile
+[INFO] |  |  \- com.google.j2objc:j2objc-annotations:jar:2.8:compile
+[INFO] |  \- io.qdrant:client:jar:1.7.1:compile
+[INFO] |     +- io.grpc:grpc-services:jar:1.59.0:runtime
+[INFO] |     |  +- io.grpc:grpc-util:jar:1.59.0:runtime
+[INFO] |     |  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.23:runtime
+[INFO] |     |  \- com.google.protobuf:protobuf-java-util:jar:3.24.0:runtime
+[INFO] |     +- io.grpc:grpc-stub:jar:1.59.0:runtime
+[INFO] |     \- io.grpc:grpc-netty-shaded:jar:1.59.0:runtime
+[INFO] |        +- io.perfmark:perfmark-api:jar:0.26.0:runtime
+[INFO] |        \- io.grpc:grpc-core:jar:1.59.0:runtime
+[INFO] |           +- com.google.android:annotations:jar:4.1.1.4:runtime
+[INFO] |           \- io.grpc:grpc-context:jar:1.59.0:runtime
+[INFO] \- io.airbrake:javabrake:jar:0.3.0:compile
+[INFO]    +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO]    +- com.squareup.okhttp3:okhttp:jar:4.12.0:runtime
+[INFO]    |  +- com.squareup.okio:okio:jar:3.6.0:runtime
+[INFO]    |  |  \- com.squareup.okio:okio-jvm:jar:3.6.0:runtime
+[INFO]    |  |     \- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.9.10:runtime
+[INFO]    |  \- org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.9.10:runtime
+[INFO]    |     +- org.jetbrains.kotlin:kotlin-stdlib:jar:1.9.10:runtime
+[INFO]    |     |  \- org.jetbrains:annotations:jar:13.0:runtime
+[INFO]    |     \- org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.9.10:runtime
+[INFO]    +- com.google.code.gson:gson:jar:2.10.1:compile
+[INFO]    \- com.tdunning:t-digest:jar:3.2:runtime
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.670 s
+[INFO] Finished at: 2024-09-14T14:39:35+02:00
+[INFO] ------------------------------------------------------------------------
